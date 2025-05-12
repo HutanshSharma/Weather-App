@@ -44,25 +44,15 @@ QGridLayout, QLabel, QPushButton, QLineEdit for layout and UI components
 
 QFont, QIcon for custom design and branding
 
-How to Run
-Clone the repository:
+🚀 How to Run
+1. Clone the repository:
+  git clone https://github.com/your-username/weather-app.git
+  cd weather-app
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
-Install dependencies:
+2. Install dependencies:
+  pip install PyQt5 requests
 
-bash
-Copy
-Edit
-pip install PyQt5 requests
-Get your API key from OpenWeatherMap and paste it in the api_key variable in the script.
+3. Get your API key from OpenWeatherMap and paste it in the api_key variable in the script.
 
-Run the app:
-
-bash
-Copy
-Edit
-python weather_app.py
+4. Run the app:
+  python weather_app.py
