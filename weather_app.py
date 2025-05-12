@@ -115,7 +115,7 @@ class MainWindow(QWidget):
 
     def on_click(self):
         city_name=self.enterhere.text()
-        api_key="10bb801e502fdc8ce58638b3af77ff64"
+        api_key="Enter Your API Key here"
         url=f"https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}"
         response=requests.get(url)
         if response.json()["cod"]==200:
